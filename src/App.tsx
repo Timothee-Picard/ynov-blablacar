@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { 
   Car, 
   Leaf, 
@@ -16,6 +16,7 @@ import {
   Smartphone,
   Heart
 } from 'lucide-react';
+import CalculatorComponent from "./components/calculator/Calculator.tsx";
 
 const StatCard = ({ icon: Icon, value, label, suffix = "" }) => (
   <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-6 text-center">
@@ -75,8 +76,7 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div>
-                
-              <img src="src/public/BlaBlaCar_logo.svg.png" alt="BlaBlaCar Logo" className="w-40 "/>
+              <img src="public/BlaBlaCar_logo.png" alt="BlaBlaCar Logo" className="w-40 "/>
             </div>
             <nav className="hidden md:flex items-center space-x-8">
               <a href="#impact" className="text-gray-700 hover:text-green-600 transition-colors">Impact</a>
@@ -146,6 +146,8 @@ function App() {
           </div>
         </div>
       </section>
+
+      <CalculatorComponent />
 
       {/* Message Écologique */}
       <section id="impact" className="py-20 bg-green-50">
@@ -349,7 +351,7 @@ function App() {
             <div>
               <div className="mb-6">
                 
-                <img src="src/public/BlaBlaCar_logo_white.svg.png" alt="BlaBlaCar Logo" className="w-40 "/>
+                <img src="public/BlaBlaCar_logo_white.png" alt="BlaBlaCar Logo" className="w-40 "/>
               </div>
               <p className="text-gray-400">
                 La plateforme de covoiturage qui révolutionne la mobilité durable en France.
