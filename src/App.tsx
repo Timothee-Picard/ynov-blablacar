@@ -1,12 +1,12 @@
 import { useState, useEffect } from 'react';
-import { 
-  Car, 
-  Leaf, 
-  Users, 
-  Lightbulb, 
-  TrendingUp, 
-  MapPin, 
-  Clock, 
+import {
+  Car,
+  Leaf,
+  Users,
+  Lightbulb,
+  TrendingUp,
+  MapPin,
+  Clock,
   Shield,
   Star,
   ArrowRight,
@@ -76,7 +76,7 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div>
-              <img src="public/BlaBlaCar_logo.png" alt="BlaBlaCar Logo" className="w-40 "/>
+              <img src="/BlaBlaCar_logo.png" alt="BlaBlaCar Logo" className="w-40 "/>
             </div>
             <nav className="hidden md:flex items-center space-x-8">
               <a href="#impact" className="text-gray-700 hover:text-green-600 transition-colors">Impact</a>
@@ -351,7 +351,7 @@ function App() {
             <div>
               <div className="mb-6">
                 
-                <img src="public/BlaBlaCar_logo_white.png" alt="BlaBlaCar Logo" className="w-40 "/>
+                <img src="/BlaBlaCar_logo_white.png" alt="BlaBlaCar Logo" className="w-40 "/>
               </div>
               <p className="text-gray-400">
                 La plateforme de covoiturage qui révolutionne la mobilité durable en France.
