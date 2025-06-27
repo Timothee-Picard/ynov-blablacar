@@ -21,7 +21,7 @@ export default function CalculatorComponent() {
 		setShowResults(trips > 0 && passengers > 0)
 	}, [trips, passengers]);
 	return(
-		<div className="max-w-4xl mx-auto px-4 py-8">
+		<div className="max-w-4xl mx-auto px-4 py-20" id="calculator">
 			<div className="text-center mb-12">
 				<h2 className="text-4xl font-bold text-gray-800 mb-4">
 					Combien de CO₂ avez-vous évité ?

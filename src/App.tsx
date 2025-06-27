@@ -79,6 +79,7 @@ function App() {
               <img src="/BlaBlaCar_logo.png" alt="BlaBlaCar Logo" className="w-40 "/>
             </div>
             <nav className="hidden md:flex items-center space-x-8">
+              <a href="#calculator" className="text-gray-700 hover:text-green-600 transition-colors">Calculateur</a>
               <a href="#impact" className="text-gray-700 hover:text-green-600 transition-colors">Impact</a>
               <a href="#innovation" className="text-gray-700 hover:text-green-600 transition-colors">Innovation</a>
               <a href="#social" className="text-gray-700 hover:text-green-600 transition-colors">Social</a>
@@ -110,14 +111,14 @@ function App() {
                 est un pas vers un avenir plus vert.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 mb-12">
-                <button className="bg-white text-green-700 px-8 py-4 rounded-xl font-semibold hover:bg-green-50 transition-all duration-300 flex items-center justify-center space-x-2">
+                <a href="https://www.blablacar.fr/" className="bg-white text-green-700 px-8 py-4 rounded-xl font-semibold hover:bg-green-50 transition-all duration-300 flex items-center justify-center space-x-2">
                   <span>Commencer maintenant</span>
                   <ArrowRight className="h-5 w-5" />
-                </button>
-                <button className="border-2 border-white/30 text-white px-8 py-4 rounded-xl font-semibold hover:bg-white/10 transition-all duration-300 flex items-center justify-center space-x-2">
+                </a>
+                <a href="#calculator" className="border-2 border-white/30 text-white px-8 py-4 rounded-xl font-semibold hover:bg-white/10 transition-all duration-300 flex items-center justify-center space-x-2">
                   <Play className="h-5 w-5" />
-                  <span>Voir notre impact</span>
-                </button>
+                  <span>Calculer mon impact</span>
+                </a>
               </div>
             </div>
             <div className="grid grid-cols-2 gap-4">
@@ -333,10 +334,10 @@ function App() {
             à la transition écologique des transports en France.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="bg-white text-green-700 px-8 py-4 rounded-xl font-semibold hover:bg-green-50 transition-all duration-300 flex items-center justify-center space-x-2">
+            <a href="https://www.blablacar.fr/" className="bg-white text-green-700 px-8 py-4 rounded-xl font-semibold hover:bg-green-50 transition-all duration-300 flex items-center justify-center space-x-2">
               <Users className="h-5 w-5" />
               <span>Rejoindre la communauté</span>
-            </button>
+            </a>
             <button className="border-2 border-white/30 text-white px-8 py-4 rounded-xl font-semibold hover:bg-white/10 transition-all duration-300">
               En savoir plus
             </button>
