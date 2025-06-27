@@ -112,7 +112,7 @@ function App() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 mb-12">
                 <a href="https://www.blablacar.fr/" className="bg-white text-green-700 px-8 py-4 rounded-xl font-semibold hover:bg-green-50 transition-all duration-300 flex items-center justify-center space-x-2">
-                  <span>Commencer maintenant</span>
+                  <span>Covoiturer maintenant</span>
                   <ArrowRight className="h-5 w-5" />
                 </a>
                 <a href="#calculator" className="border-2 border-white/30 text-white px-8 py-4 rounded-xl font-semibold hover:bg-white/10 transition-all duration-300 flex items-center justify-center space-x-2">
@@ -334,13 +334,13 @@ function App() {
             à la transition écologique des transports en France.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="https://www.blablacar.fr/" className="bg-white text-green-700 px-8 py-4 rounded-xl font-semibold hover:bg-green-50 transition-all duration-300 flex items-center justify-center space-x-2">
+            <a href="https://blog.blablacar.fr/" className="bg-white text-green-700 px-8 py-4 rounded-xl font-semibold hover:bg-green-50 transition-all duration-300 flex items-center justify-center space-x-2">
               <Users className="h-5 w-5" />
               <span>Rejoindre la communauté</span>
             </a>
-            <button className="border-2 border-white/30 text-white px-8 py-4 rounded-xl font-semibold hover:bg-white/10 transition-all duration-300">
+            <a href="https://blablacar.fr/a-propos" className="border-2 border-white/30 text-white px-8 py-4 rounded-xl font-semibold hover:bg-white/10 transition-all duration-300">
               En savoir plus
-            </button>
+            </a>
           </div>
         </div>
       </section>
